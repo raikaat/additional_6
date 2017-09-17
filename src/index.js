@@ -24,7 +24,6 @@ return findZeros(result);
 function doubleFact (arg) {
 	if (arg <= 0) 
 	return 1; 
-
 	else return arg * doubleFact(arg-2);
 }
 
