@@ -3,7 +3,7 @@ module.exports = function zeros(expression) {
     var arr = str.split("*");
     var arr2 = [];
     var arr3 = [];  
-	var result = 1;
+    var result = 1;
     for (var i = 0; i < arr.length; i++) {
     	if (arr[i].indexOf("!!") === -1) {
         	arr2.push(parseInt(arr[i]));
