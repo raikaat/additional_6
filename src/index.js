@@ -28,14 +28,14 @@ return findZeros(result);
 function doubleFact (arg) {
 	if (arg <= 0) 
 	return 1; 
-	else return arg * doubleFact(arg-2);
+	else return multiply(arg, doubleFact(arg-2));
 }
 
 function fact (arg) {
 if (arg === 0) {
 	return 1;
 }
-else return arg*fact(arg-1);
+else return multiply(arg, fact(arg-1));
 }
 function multiply(first, second) {
 if (first*second<9007199254740991) {
